@@ -2,7 +2,7 @@
 # Maintainer: darkprince558 <darkprince558@users.noreply.github.com>
 
 pkgname='jend-bin'
-pkgver=2.6.1
+pkgver=2.7.0
 pkgrel=1
 pkgdesc='JEND: Just Enough Network Drop - Modern, secure, P2P file transfer.'
 url='https://github.com/darkprince558/jend'
@@ -12,10 +12,10 @@ provides=('jend')
 conflicts=('jend')
 
 source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/darkprince558/JEND/releases/download/v${pkgver}/jend_Linux_arm64.tar.gz")
-sha256sums_aarch64=('4964582534b3a48e271bd8c1a115e1e515c187de612e2634732a7d90041e9fd7')
+sha256sums_aarch64=('37dc95ecd4b4a7c4bb0cf3154c9c126759801fc5c32035cedcfc79788d955ff1')
 
 source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/darkprince558/JEND/releases/download/v${pkgver}/jend_Linux_x86_64.tar.gz")
-sha256sums_x86_64=('39b525c3a68e0ad5060171a6bc318d4d205d06ddfcde935b57740d040142f43d')
+sha256sums_x86_64=('9e4d7b866c99d8f3c7ede78ac3d96d411ffe4fffc2bf3726bb699660c019ded2')
 
 package() {
   # bin
