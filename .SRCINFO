@@ -1,16 +1,16 @@
 pkgbase = jend-bin
 	pkgdesc = JEND: Just Enough Network Drop - Modern, secure, P2P file transfer.
-	pkgver = 2.7.0
+	pkgver = 2.7.1
 	pkgrel = 1
 	url = https://github.com/darkprince558/jend
 	license = MIT
 	conflicts = jend
 	provides = jend
 	arch = aarch64
-	source_aarch64 = https://github.com/darkprince558/JEND/releases/download/v2.7.0/jend_Linux_arm64.tar.gz
-	sha256sums_aarch64 = 37dc95ecd4b4a7c4bb0cf3154c9c126759801fc5c32035cedcfc79788d955ff1
+	source_aarch64 = https://github.com/darkprince558/JEND/releases/download/v2.7.1/jend_Linux_arm64.tar.gz
+	sha256sums_aarch64 = 267bb39a684d8e1a7a12be1ec3de425209c70dd9130e5b7538f180a2e4216c30
 	arch = x86_64
-	source_x86_64 = https://github.com/darkprince558/JEND/releases/download/v2.7.0/jend_Linux_x86_64.tar.gz
-	sha256sums_x86_64 = 9e4d7b866c99d8f3c7ede78ac3d96d411ffe4fffc2bf3726bb699660c019ded2
+	source_x86_64 = https://github.com/darkprince558/JEND/releases/download/v2.7.1/jend_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = d2b9e6f01d9fe19e12ba25229c6b5404620e3d46ed2562fb5c3be40b1df2109c
 	
 pkgname = jend-bin
