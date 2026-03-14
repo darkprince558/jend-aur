@@ -2,7 +2,7 @@
 # Maintainer: darkprince558 <darkprince558@users.noreply.github.com>
 
 pkgname='jend-bin'
-pkgver=2.8.0
+pkgver=2.8.1
 pkgrel=1
 pkgdesc='JEND - Modern, secure, P2P file transfer.'
 url='https://github.com/darkprince558/jend'
@@ -12,10 +12,10 @@ provides=('jend')
 conflicts=('jend')
 
 source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/darkprince558/JEND/releases/download/v${pkgver}/jend_Linux_arm64.tar.gz")
-sha256sums_aarch64=('edba1a016c06e1e3901708f68315582a0d8930a380ba1c6a5b89ba3c010f3f74')
+sha256sums_aarch64=('7e806ef8479857a1cfd9aaff24b7a8bf78b9039b16bf4504f4a7ae737fa9f50a')
 
 source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/darkprince558/JEND/releases/download/v${pkgver}/jend_Linux_x86_64.tar.gz")
-sha256sums_x86_64=('e8298bc431874f8750f04d7bf26603870fa7f7b3ec85cb1567f084ba4f47c378')
+sha256sums_x86_64=('6c4e13df475f5e6ff473eb2e8b1b85b98ee7b7f94d5aae4e64a72d1db1793647')
 
 package() {
   # bin
